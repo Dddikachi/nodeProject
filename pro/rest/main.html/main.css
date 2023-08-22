@@ -1,0 +1,45 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    background: rgb(245, 224, 182);
+}
+
+.container {
+    width: 98%;
+    display: grid;
+    grid-template-columns: 14rem auto 23rem;
+    gap: 1.8rem;
+    font-family: 'Trebuchet MS';
+}
+
+aside {
+    background: rgb(176, 149, 118);
+    width: auto;
+    height: 100vh;
+}
+
+main {
+    
+}
+main .dashboard {
+    /* background: rgb(71, 71, 181); */
+    height: 3rem;
+}
+
+main .date {
+    /* background: rgb(29, 157, 40); */
+    height: 3rem;
+}
+
+main .insights{
+    /* background: rgb(194, 194, 221); */
+    height: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+main .insights > div {
+    background: rgb(226, 236, 211);
+    border-radius: 1.2rem;
+}
